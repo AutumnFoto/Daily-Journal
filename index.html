@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autumn's Journal</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    
+<header>
+    <h1>
+        Daily Journal AF
+    </h1>
+</header>
+
+<main>
+    <section class = "journalForm">
+        <form action="">
+            <p>
+                <feildset class="formFieldset">
+                    <label for ="journalDate"> Date of Entry</label>
+                    <input type="date" name="journalDate" id= "journalDate">
+                </feildset>
+            </p>
+
+            <p>
+                <feildset class="formFieldset">
+                    <label for ="topicOfTheDay"> Topic of the Day</label>
+                    <input type= "date" name="topicOfTheDay" name="topicOfTheDay" id="topicOfTheDay">
+                </fieldset>
+            </p>
+
+            <p>
+                <feildset class="formFieldset">  
+                    <label for ="journalEntry"> Journal Entry</label>
+                    <textarea id="journalEntry" name="entry" rows="6" cols="40" class="text"></textarea>
+                </feildset>
+            </p>
+
+            <p>
+                <feildset class="formFieldset">  
+                    <label for ="mood"> Vibezz</label>
+                    <input type="range" name="mood" id="mood">
+                    <select class="arrows" name="oood" id="mood">
+                        <option value="Hype">Hype Vibezz</option>
+                        <option value="Chill">Chill Vibezz</option>
+                        <option value="Worrisome">Worrisome Vibezz</option>
+                        <option value="Oh no">Oh No Vibezz</option>
+                    </select>
+                </fieldset>
+                <button> Record Journal Entry</button>
+            </p>
+
+            <p>
+                <input="submit" value="Submit">
+            </p>
+
+        </form>
+    </section>
+</main>
+
+
+<footer> &copy; Autumn Fotopoulos ~ Nashville Software School ~ Cohort47
+
+<script type="module" src="./scripts/main.js"></script></footer>
+
+
+
+
+
+</body>
+</html>

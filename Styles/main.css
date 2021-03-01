@@ -1,0 +1,43 @@
+body{
+    background-color: #36496A;
+    color: #ffff;
+}
+h1{
+background-color: #A1CDEE;
+    text-align: center;
+    margin-left: 13em;
+    margin-right: 13em;
+}
+
+fieldset {
+    flex-direction: column;
+}
+
+.formFieldset {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+/* .journalEntry {
+    margin: 3rem 3rem;
+    line-height: 1.5rem;
+    font-size: 1.4rem;
+} */
+
+fieldset {
+    margin: .2rem;
+    padding:.2rem;
+    border: 2px rgba(139.3,139.3,139.3,.5) solid;
+    border-radius: 6px;
+}
+.formFieldset {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin: 3em;
+}
+
+footer{
+    text-align: center;
+}
