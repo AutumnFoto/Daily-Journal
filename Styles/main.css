@@ -19,12 +19,6 @@ fieldset {
     font-size: 1.5rem;
 }
 
-/* .journalEntry {
-    margin: 3rem 3rem;
-    line-height: 1.5rem;
-    font-size: 1.4rem;
-} */
-
 fieldset {
     margin: .2rem;
     padding:.2rem;
@@ -35,9 +29,31 @@ fieldset {
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
-    margin: 3em;
+    margin: 2 kkklem;
 }
 
 footer{
     text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+	margin: 50px 0px;
+}
+
+.journal-card{
+    width: 30%;
+	padding-bottom: 20px;
+	list-style-type: none;
+    background-color: #C3D5EB;
+    color: #36496A;
+    
+}
+
+.journalList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
