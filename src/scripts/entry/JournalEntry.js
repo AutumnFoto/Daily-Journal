@@ -1,7 +1,4 @@
-/*
- *  Purpose: To render a single journal entry as an
- *           HTML representation of the data
- */
+
 export const JournalEntry = (journalObj) => {
     return (`
            <article class="journal-card">
