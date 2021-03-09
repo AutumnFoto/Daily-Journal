@@ -39,21 +39,35 @@ footer{
 main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-	margin: 50px 0px;
+    justify-content: center;
+	margin: 20px 0px;
 }
 
 .journal-card{
-    width: 30%;
-	padding-bottom: 20px;
+    width: 60%;
+	/* padding-bottom: 20px; */
 	list-style-type: none;
     background-color: #C3D5EB;
     color: #36496A;
+    text-align: center;
+  justify-content: center;
+
     
 }
 
 .entryList{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+   text-align: center;
+}
+
+aside{
+    width: 20%;
+   float: right;
+   overflow: scroll;
+    max-height: 400px;
+
+}
+
+.journal-image{
+    width: 300px;
+    height: 300px;
 }
