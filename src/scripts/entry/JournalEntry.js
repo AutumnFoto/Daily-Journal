@@ -1,12 +1,13 @@
 
 export const JournalEntry = (journalObj) => {
     return (`
-           <article class="journal-card">
-    
+    <section class="journal-card">
+
         <h2 class = "journal-date">${journalObj.date}</h2>
-        <p class= "journal-entry">${journalObj.entry}</p>
-        <p class= "journal-concept"> ${journalObj.concept}</p>
-        <p class= "journal-mood">${journalObj.mood}</p>
+        <div class= "journal-entry">Description: ${journalObj.description}</div>
+        <div lass= "journal-concept"> Concept: ${journalObj.concept}</div>
+        <div class= "journal-mood">Mood: ${journalObj.mood}</div>
+        <img class="journal-image" src="${journalObj.imageURL}" />
         </section>
     `)
 }

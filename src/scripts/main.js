@@ -1,11 +1,11 @@
-import { getEntry } from "./data/DataManager.js";
-import { EntryList } from "./entry/EntryList.js"
+import { getEntry } from "./data/dataManager.js";
+import { entryList } from "./entry/EntryList.js";
 
 
 const showEntryList = () => {
-  const entryElement = document.querySelector(".entryList");
+  const entryElement = document.querySelector("#entryList");
 	getEntry().then((allEntries) => {
-		entryElement.innerHTML = EntryList(allEntries);
+		entryElement.innerHTML = entryList(allEntries);
 	})
 }
 
@@ -15,3 +15,4 @@ const DailyJournalAF = () => {
 }
 
 DailyJournalAF();
+
