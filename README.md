@@ -1,6 +1,6 @@
 # Daily-Journal
 
-The Daily Journal application is an opportunity to take the concepts we learn in class, and practice with the exercises and apply them elaboratively throughout the course.
+This Daily Journal application is an opportunity to take the concepts we learn in class, and practice with the exercises and apply them elaboratively throughout the course.
 Ultimately the daily journal will display a list of posts with the ability to add, edit, and delete a post.
 
 ## Technologies Used:
