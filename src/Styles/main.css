@@ -1,3 +1,5 @@
+@import "nav.css";
+
 body{
     background-color: #36496A;
     color: #ffff;
@@ -29,7 +31,7 @@ fieldset {
     display: flex;
     flex-direction: column;
     font-size: 1.5rem;
-    margin: 2 kkklem;
+    margin: 2rem;
 }
 
 footer{
@@ -51,12 +53,15 @@ main {
     color: #36496A;
     text-align: center;
   justify-content: center;
+  margin-top:6%;
 
     
 }
 
 .entryList{
    text-align: center;
+   margin-top:400% ;
+
 }
 
 aside{
